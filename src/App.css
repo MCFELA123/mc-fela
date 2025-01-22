@@ -1,0 +1,89 @@
+#root {
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-align {
+  display: flex;
+  align-items: center;
+}
+
+.d-grid-align {
+  display: grid;
+  align-items: center;
+}
+
+.d-justify {
+  display: flex;
+  justify-content: center;
+}
+
+.d-grid-justify {
+  display: grid;
+  justify-content: center;
+}
+
+.d-align-start {
+  display: flex;
+  align-items: start;
+}
+
+.d-align-end {
+  display: flex;
+  align-items: end;
+}
+
+.d-justify-start {
+  display: flex;
+  justify-content: start;
+}
+
+.d-justify-end {
+  display: flex;
+  justify-content: end;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+br {
+  user-select: none;
+}
+
+.glow-img {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
