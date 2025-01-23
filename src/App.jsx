@@ -70,9 +70,11 @@ function App() {
             <Icon src={user_profile}/>
         </UserProfile>
         <SpaceBetween><Hr_Y/></SpaceBetween>
-            <Button className='btn-primary' radius={.6}>
+          <Link to={'/login'}>
+                <Button className='btn-primary' radius={.6}>
                 <Text>Get started</Text>
             </Button>
+          </Link>
         </Component>
     </Component>
     </TopBar>
