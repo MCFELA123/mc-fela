@@ -84,6 +84,7 @@ function App() {
         <Route path={'/home'}><Home/></Route>
         <Route path={'/Settings'}><Settings/></Route>
         <Route path={'/monica'}><Monica/></Route>
+      <Route path={'/'}><Monica/></Route>
         </Switch>
     </Component>
       </Component>
